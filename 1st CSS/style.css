@@ -1,0 +1,16 @@
+/*selector{
+	property:value;
+}*/
+
+h2{
+	color: blue;
+	background-color: red;
+	text-align: center;
+	border: 5px dashed purple;
+	/*solid*/
+}
+
+p{
+	color: red;
+	background-color: pink;
+}

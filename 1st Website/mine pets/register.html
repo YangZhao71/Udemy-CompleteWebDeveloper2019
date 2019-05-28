@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<a href="index.html">Back To Index</a>
+	<h1>Log in / Register</h1>
+	<form method="GET">
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required><br>
+		Password: <input type="Password" name="password" minlength="5"><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br>
+		Pets:<br>
+		<input type="checkbox" name="Dog">Dog
+		<select name="Dog">
+			<option value="Yorkshire">Yorkshire</option>
+			<option value="Bull Terrier">Bull Terrier</option>
+			<option value="Jack Russell">Jack Russell</option>
+		</select>
+		<br>
+		<input type="checkbox" name="Cat">Cat
+		<select name="Cat">
+			<option value="British Shorthair">British Shorthair</option>
+			<option value="Siamese">Siamese</option>
+			<option value="Persian">Persian</option>
+		</select>
+		<br>
+		<input type="checkbox" name="Other">Other<br>
+
+		<input type="submit" value="Register!">
+		<input type="reset">
+	</form>
+</body>
+</html>
+
+
+<!-- ?
+firstname=Yangmengyuan
+&lastname=Zhao
+&email=zymy701%40gmail.com
+&password=12345
+&birthday=2019-04-02
+&gender=Female
+&Dog=on
+&Dog=Yorkshire
+&Cat=on
+&Cat=Persian
+&Other=on
+
+name=value -->
+
+
