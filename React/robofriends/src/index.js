@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // if no signature, assume it as Javascript file
 import './index.css';
-import App from './App';
+import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 
